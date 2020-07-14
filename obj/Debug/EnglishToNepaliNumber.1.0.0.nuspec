@@ -6,7 +6,13 @@
     <authors>Bishow Kaji Shrestha</authors>
     <owners>Bishow Kaji Shrestha</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="expression">MIT</license>
+    <licenseUrl>https://licenses.nuget.org/MIT</licenseUrl>
+    <projectUrl>https://bishowshrestha.com.np/</projectUrl>
     <description>This is simple package to convert English number To Nepali number or devanagari number.</description>
+    <copyright>Copyright © Bishow Kaji Shrestha 2020</copyright>
+    <tags>Conveter, number conveter</tags>
+    <repository url="https://github.com/Aayam007/EnglishTo-NepaliNumber" />
     <dependencies>
       <group targetFramework=".NETStandard2.0" />
     </dependencies>

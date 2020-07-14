@@ -7,6 +7,11 @@
     <Description>This is simple package to convert English number To Nepali number or devanagari number.</Description>
     <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <Copyright>Copyright © Bishow Kaji Shrestha 2020</Copyright>
+    <RepositoryUrl>https://github.com/Aayam007/EnglishTo-NepaliNumber</RepositoryUrl>
+    <PackageProjectUrl>https://bishowshrestha.com.np/</PackageProjectUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageTags>Conveter, number conveter</PackageTags>
   </PropertyGroup>
 
 </Project>
