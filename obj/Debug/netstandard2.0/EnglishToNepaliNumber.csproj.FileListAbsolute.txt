@@ -1,0 +1,8 @@
+C:\Users\Dotnet Developer\source\repos\EnglishToNepaliNumber\EnglishToNepaliNumber\bin\Debug\netstandard2.0\EnglishToNepaliNumber.deps.json
+C:\Users\Dotnet Developer\source\repos\EnglishToNepaliNumber\EnglishToNepaliNumber\bin\Debug\netstandard2.0\EnglishToNepaliNumber.dll
+C:\Users\Dotnet Developer\source\repos\EnglishToNepaliNumber\EnglishToNepaliNumber\bin\Debug\netstandard2.0\EnglishToNepaliNumber.pdb
+C:\Users\Dotnet Developer\source\repos\EnglishToNepaliNumber\EnglishToNepaliNumber\obj\Debug\netstandard2.0\EnglishToNepaliNumber.csprojAssemblyReference.cache
+C:\Users\Dotnet Developer\source\repos\EnglishToNepaliNumber\EnglishToNepaliNumber\obj\Debug\netstandard2.0\EnglishToNepaliNumber.AssemblyInfoInputs.cache
+C:\Users\Dotnet Developer\source\repos\EnglishToNepaliNumber\EnglishToNepaliNumber\obj\Debug\netstandard2.0\EnglishToNepaliNumber.AssemblyInfo.cs
+C:\Users\Dotnet Developer\source\repos\EnglishToNepaliNumber\EnglishToNepaliNumber\obj\Debug\netstandard2.0\EnglishToNepaliNumber.dll
+C:\Users\Dotnet Developer\source\repos\EnglishToNepaliNumber\EnglishToNepaliNumber\obj\Debug\netstandard2.0\EnglishToNepaliNumber.pdb
