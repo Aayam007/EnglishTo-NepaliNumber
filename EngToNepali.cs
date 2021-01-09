@@ -2,34 +2,37 @@
 
 namespace EnglishToNepaliNumber
 {
-    public class EngToNepali
+    public class Conveter
     {
-        public static string English_Nepali(string EnglishNumericValue)
+        public static string EnglishToNepali(string EnglishNumber)
         {
-            if (EnglishNumericValue == null)
+            string[] NepaliNumberArray = { "०", "१", "२", "३", "४", "५", "६", "७", "८", "९", ".", "/", "-" };
+
+            string[] EnglishNumberArray = { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", ".", "/", "-" };
+
+            int TotalNumber = 13;
+            string NepaliNumber = "";
+            if (EnglishNumber == null)
             {
-                EnglishNumericValue = " ";
+                EnglishNumber = " ";
             }
-            string Eng_Value = EnglishNumericValue; // unicode  numeric chars
-            string Nep_value = "";
-            string[] Text_Nepali = { "०", "१", "२", "३", "४", "५", "६", "७", "८", "९", ".", "/", "-" };
-            string[] Text_English = { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", ".", "/", "-" };
-            char[] Inputtext = Eng_Value.ToString().ToCharArray();
-            for (int j = 0; j < Eng_Value.Length; j++)
+            // conveting input string to char array
+            char[] inputString = EnglishNumber.ToCharArray();
+            for (int i = 0; i < EnglishNumber.Length; i++)
             {
-                for (int i = 0; i < 13; i++)
+
+                for (int j = 0; j < TotalNumber; j++)
                 {
-                    string value = Text_English[i].ToString();
-                    string value1 = Inputtext[j].ToString();
-                    if (value == value1)
+                    string value = EnglishNumberArray[i].ToString();
+                    string inputvalue = inputString[i].ToString();
+                    if (value == inputvalue)
                     {
-                        Nep_value += Text_Nepali[i].ToString();
+                        NepaliNumber += NepaliNumberArray[i].ToString();
                     }
                 }
-
             }
-            return Nep_value;
-        }
 
+            return NepaliNumber;
+        }
     }
 }
