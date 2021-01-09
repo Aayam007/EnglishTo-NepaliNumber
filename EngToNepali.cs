@@ -23,11 +23,11 @@ namespace EnglishToNepaliNumber
 
                 for (int j = 0; j < TotalNumber; j++)
                 {
-                    string value = EnglishNumberArray[i].ToString();
-                    string inputvalue = inputString[j].ToString();
+                    string value = EnglishNumberArray[j].ToString();
+                    string inputvalue = inputString[i].ToString();
                     if (value == inputvalue)
                     {
-                        NepaliNumber += NepaliNumberArray[i].ToString();
+                        NepaliNumber += NepaliNumberArray[j].ToString();
                     }
                 }
             }
