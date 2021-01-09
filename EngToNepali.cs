@@ -24,7 +24,7 @@ namespace EnglishToNepaliNumber
                 for (int j = 0; j < TotalNumber; j++)
                 {
                     string value = EnglishNumberArray[i].ToString();
-                    string inputvalue = inputString[i].ToString();
+                    string inputvalue = inputString[j].ToString();
                     if (value == inputvalue)
                     {
                         NepaliNumber += NepaliNumberArray[i].ToString();
